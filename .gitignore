@@ -1,5 +1,6 @@
 node_modules
 .vscode
-resources/
+resources/data/img
+resources/skripsi
 OUT.png
 seighneur-service-key-6ff1ec077ac2.json
