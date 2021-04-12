@@ -1,5 +1,24 @@
 const similarity = require('string-similarity')
 
+/* 
+  IMPORTANT!
+
+  The image or photo boundary will have different image pixel size after detection from
+  one image to another. This is resulted by different image quality (SD, HD or FHD) when u
+  take a picture / scanner.
+
+  So, wordBounds variable will have different vertices value when using different image quality
+  photo or scanner.
+
+  Current text recognition algorithm is to compare text detected by google vision with the 
+  predefined-words I have created in which exist text and its boundary. It compares
+  text detected with the predefined-words text boundary. If it is the same, then push it
+  to the wordCollection array.
+
+  FIXME: this needs better text recognition algorithm
+
+*/
+
 async function documentTextRecognition(wordsDetection, predefinedWords) {
   const { wordBounds = [], wordsPerParagraph = [] } = wordsDetection
   const wordsCollection = []
@@ -98,8 +117,8 @@ async function documentTextRecognition(wordsDetection, predefinedWords) {
   // console.log(wordsCollection)
 
   /* Uncomment below to see all word boundary */
-  // wordBounds.forEach(word => {
-  //   console.log(word)
-  // })
+  wordBounds.forEach(word => {
+    console.log(word)
+  })
 }
 module.exports = documentTextRecognition
