@@ -1,7 +1,7 @@
 const pureImage = require('pureimage')
 const fs = require('fs')
 
-async function highlightText(imgSrc, imgDst, result_bounds) {
+async function highlightText(imgSrc, imgDst, wordBounds) {
   let promise = null
   const stream = fs.createReadStream(imgSrc)
 
@@ -13,7 +13,7 @@ async function highlightText(imgSrc, imgDst, result_bounds) {
   context.strokeStyle = 'rgba(0, 255, 0, 0.25)'
   context.lineWidth = '1'
 
-  result_bounds.forEach(section => {
+  wordBounds?.wordBounds.forEach(section => {
     // if (section.id === "block") context.strokeStyle = 'rgba(255, 0, 0, 1)'
     if (section.id === "paragraph") context.strokeStyle = 'rgba(0, 0, 255, 0.25)'
     if (section.id === "word") context.strokeStyle = 'rgba(0, 255, 0, 0.25)'
