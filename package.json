@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/storage": "^5.8.2",
     "@google-cloud/vision": "^2.3.1",
+    "fuzzyset": "^1.0.6",
     "pureimage": "^0.2.7",
     "string-similarity": "^4.0.4"
   }
