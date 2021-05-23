@@ -23,7 +23,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "jual-",
+        "text": "jual",
         "vertices": [
             {
                 "x": 730,
@@ -62,28 +62,6 @@
             {
                 "x": 903,
                 "y": 509
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "-",
-        "vertices": [
-            {
-                "x": 1052,
-                "y": 482
-            },
-            {
-                "x": 1094,
-                "y": 482
-            },
-            {
-                "x": 1094,
-                "y": 502
-            },
-            {
-                "x": 1052,
-                "y": 502
             }
         ]
     },
@@ -128,28 +106,6 @@
             {
                 "x": 921,
                 "y": 559
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "-",
-        "vertices": [
-            {
-                "x": 1054,
-                "y": 540
-            },
-            {
-                "x": 1095,
-                "y": 541
-            },
-            {
-                "x": 1095,
-                "y": 562
-            },
-            {
-                "x": 1054,
-                "y": 561
             }
         ]
     },
@@ -243,50 +199,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": ":",
-        "vertices": [
-            {
-                "x": 717,
-                "y": 630
-            },
-            {
-                "x": 739,
-                "y": 631
-            },
-            {
-                "x": 738,
-                "y": 665
-            },
-            {
-                "x": 716,
-                "y": 664
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "...",
-        "vertices": [
-            {
-                "x": 741,
-                "y": 631
-            },
-            {
-                "x": 791,
-                "y": 633
-            },
-            {
-                "x": 790,
-                "y": 668
-            },
-            {
-                "x": 740,
-                "y": 666
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "akta",
         "vertices": [
             {
@@ -309,7 +221,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "jual-beli",
+        "text": "jualbeli",
         "vertices": [
             {
                 "x": 1226,
@@ -353,7 +265,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "no.",
+        "text": "no",
         "vertices": [
             {
                 "x": 1049,
@@ -375,51 +287,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "..",
-        "vertices": [
-            {
-                "x": 1136,
-                "y": 830
-            },
-            {
-                "x": 1184,
-                "y": 829
-            },
-            {
-                "x": 1185,
-                "y": 878
-            },
-            {
-                "x": 1137,
-                "y": 879
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "/...",
-        "vertices": [
-            {
-                "x": 1278,
-                "y": 828
-            },
-            {
-                "x": 1426,
-                "y": 826
-            },
-            {
-                "x": 1427,
-                "y": 876
-            },
-            {
-                "x": 1279,
-                "y": 878
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "/19.",
+        "text": "19",
         "vertices": [
             {
                 "x": 1576,
@@ -485,7 +353,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "350/",
+        "text": "350",
         "vertices": [
             {
                 "x": 1119,
@@ -507,7 +375,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "jb,",
+        "text": "jb",
         "vertices": [
             {
                 "x": 1264,
@@ -573,7 +441,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "19....",
+        "text": "19",
         "vertices": [
             {
                 "x": 1869,
@@ -661,7 +529,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "ini,",
+        "text": "ini",
         "vertices": [
             {
                 "x": 890,
@@ -705,50 +573,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "..",
-        "vertices": [
-            {
-                "x": 1054,
-                "y": 945
-            },
-            {
-                "x": 1081,
-                "y": 945
-            },
-            {
-                "x": 1081,
-                "y": 954
-            },
-            {
-                "x": 1054,
-                "y": 954
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "...",
-        "vertices": [
-            {
-                "x": 1282,
-                "y": 918
-            },
-            {
-                "x": 1334,
-                "y": 918
-            },
-            {
-                "x": 1334,
-                "y": 964
-            },
-            {
-                "x": 1282,
-                "y": 964
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "tanggal",
         "vertices": [
             {
@@ -766,28 +590,6 @@
             {
                 "x": 1334,
                 "y": 959
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "...",
-        "vertices": [
-            {
-                "x": 1473,
-                "y": 942
-            },
-            {
-                "x": 1510,
-                "y": 942
-            },
-            {
-                "x": 1510,
-                "y": 952
-            },
-            {
-                "x": 1473,
-                "y": 952
             }
         ]
     },
@@ -881,7 +683,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": ".aolimad..kosasih..ra.",
+        "text": "aolimadkosasihra",
         "vertices": [
             {
                 "x": 1235,
@@ -903,29 +705,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "********",
-        "vertices": [
-            {
-                "x": 1757,
-                "y": 937
-            },
-            {
-                "x": 1840,
-                "y": 938
-            },
-            {
-                "x": 1840,
-                "y": 949
-            },
-            {
-                "x": 1757,
-                "y": 948
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "camat,",
+        "text": "camat",
         "vertices": [
             {
                 "x": 632,
@@ -1013,7 +793,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": ".9..m.....h.mmma",
+        "text": "9mhmmma",
         "vertices": [
             {
                 "x": 1381,
@@ -1035,7 +815,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "oleh-menteri-dalam-negeri-dengan-surat-keputusannya",
+        "text": "olehmenteridalamnegeridengansuratkeputusannya",
         "vertices": [
             {
                 "x": 633,
@@ -1211,29 +991,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": ")",
-        "vertices": [
-            {
-                "x": 1676,
-                "y": 1125
-            },
-            {
-                "x": 1703,
-                "y": 1125
-            },
-            {
-                "x": 1703,
-                "y": 1150
-            },
-            {
-                "x": 1676,
-                "y": 1150
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "wmwwmw-19mrw-nemer",
+        "text": "wmwwmw19mrwnemer",
         "vertices": [
             {
                 "x": 1116,
@@ -1255,7 +1013,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "tanggal-wm",
+        "text": "tanggalwm",
         "vertices": [
             {
                 "x": 636,
@@ -1299,7 +1057,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "no.",
+        "text": "no",
         "vertices": [
             {
                 "x": 777,
@@ -1321,7 +1079,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "10/1961",
+        "text": "101961",
         "vertices": [
             {
                 "x": 853,
@@ -1343,7 +1101,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "bertindak)",
+        "text": "bertindak",
         "vertices": [
             {
                 "x": 1020,
@@ -1387,7 +1145,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "www.w******..",
+        "text": "wwww******",
         "vertices": [
             {
                 "x": 1831,
@@ -1409,7 +1167,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "-ditunjuk",
+        "text": "ditunjuk",
         "vertices": [
             {
                 "x": 818,
@@ -1849,50 +1607,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "----",
-        "vertices": [
-            {
-                "x": 1790,
-                "y": 1434
-            },
-            {
-                "x": 1883,
-                "y": 1435
-            },
-            {
-                "x": 1883,
-                "y": 1445
-            },
-            {
-                "x": 1790,
-                "y": 1444
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "*******",
-        "vertices": [
-            {
-                "x": 1875,
-                "y": 1460
-            },
-            {
-                "x": 1945,
-                "y": 1460
-            },
-            {
-                "x": 1945,
-                "y": 1468
-            },
-            {
-                "x": 1875,
-                "y": 1468
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "dengan",
         "vertices": [
             {
@@ -1959,7 +1673,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "saksi-saksi",
+        "text": "saksisaksi",
         "vertices": [
             {
                 "x": 1010,
@@ -2025,7 +1739,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "kenal/diperkenalkan",
+        "text": "kenaldiperkenalkan",
         "vertices": [
             {
                 "x": 1376,
@@ -2069,7 +1783,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "kami')",
+        "text": "kami",
         "vertices": [
             {
                 "x": 1862,
@@ -2201,7 +1915,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "binti.",
+        "text": "binti",
         "vertices": [
             {
                 "x": 1348,
@@ -2267,28 +1981,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "--",
-        "vertices": [
-            {
-                "x": 1662,
-                "y": 1571
-            },
-            {
-                "x": 1730,
-                "y": 1571
-            },
-            {
-                "x": 1730,
-                "y": 1616
-            },
-            {
-                "x": 1662,
-                "y": 1616
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "nam",
         "vertices": [
             {
@@ -2333,7 +2025,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "i.",
+        "text": "i",
         "vertices": [
             {
                 "x": 660,
@@ -2355,29 +2047,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1954,
-                "y": 1599
-            },
-            {
-                "x": 1985,
-                "y": 1599
-            },
-            {
-                "x": 1985,
-                "y": 1624
-            },
-            {
-                "x": 1954,
-                "y": 1624
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "\"35...",
+        "text": "35",
         "vertices": [
             {
                 "x": 1159,
@@ -2487,50 +2157,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "*****",
-        "vertices": [
-            {
-                "x": 1887,
-                "y": 1626
-            },
-            {
-                "x": 1937,
-                "y": 1626
-            },
-            {
-                "x": 1937,
-                "y": 1634
-            },
-            {
-                "x": 1887,
-                "y": 1634
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1955,
-                "y": 1649
-            },
-            {
-                "x": 1986,
-                "y": 1649
-            },
-            {
-                "x": 1986,
-                "y": 1674
-            },
-            {
-                "x": 1955,
-                "y": 1674
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "pororjam",
         "vertices": [
             {
@@ -2553,51 +2179,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1955,
-                "y": 1699
-            },
-            {
-                "x": 1985,
-                "y": 1699
-            },
-            {
-                "x": 1985,
-                "y": 1725
-            },
-            {
-                "x": 1955,
-                "y": 1725
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1955,
-                "y": 1752
-            },
-            {
-                "x": 1985,
-                "y": 1752
-            },
-            {
-                "x": 1985,
-                "y": 1777
-            },
-            {
-                "x": 1955,
-                "y": 1777
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": ".a.a...13..t.",
+        "text": "aa13t",
         "vertices": [
             {
                 "x": 1025,
@@ -2619,29 +2201,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1954,
-                "y": 1804
-            },
-            {
-                "x": 1984,
-                "y": 1804
-            },
-            {
-                "x": 1984,
-                "y": 1828
-            },
-            {
-                "x": 1954,
-                "y": 1828
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "'klwanan",
+        "text": "klwanan",
         "vertices": [
             {
                 "x": 1172,
@@ -2685,7 +2245,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "keumrtan\"",
+        "text": "keumrtan",
         "vertices": [
             {
                 "x": 1658,
@@ -2839,28 +2399,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1954,
-                "y": 1906
-            },
-            {
-                "x": 1984,
-                "y": 1905
-            },
-            {
-                "x": 1985,
-                "y": 1929
-            },
-            {
-                "x": 1955,
-                "y": 1930
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "dra",
         "vertices": [
             {
@@ -2993,7 +2531,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "diri\"gondtri",
+        "text": "dirigondtri",
         "vertices": [
             {
                 "x": 1496,
@@ -3015,7 +2553,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "dan\"",
+        "text": "dan",
         "vertices": [
             {
                 "x": 1834,
@@ -3032,28 +2570,6 @@
             {
                 "x": 1834,
                 "y": 1959
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1955,
-                "y": 1948
-            },
-            {
-                "x": 1985,
-                "y": 1947
-            },
-            {
-                "x": 1986,
-                "y": 1979
-            },
-            {
-                "x": 1956,
-                "y": 1980
             }
         ]
     },
@@ -3191,7 +2707,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "ridan\"",
+        "text": "ridan",
         "vertices": [
             {
                 "x": 1780,
@@ -3208,28 +2724,6 @@
             {
                 "x": 1780,
                 "y": 2013
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1956,
-                "y": 2007
-            },
-            {
-                "x": 1986,
-                "y": 2007
-            },
-            {
-                "x": 1986,
-                "y": 2032
-            },
-            {
-                "x": 1956,
-                "y": 2032
             }
         ]
     },
@@ -3257,7 +2751,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "rob.kuapa",
+        "text": "robkuapa",
         "vertices": [
             {
                 "x": 913,
@@ -3367,28 +2861,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1956,
-                "y": 2057
-            },
-            {
-                "x": 1985,
-                "y": 2056
-            },
-            {
-                "x": 1985,
-                "y": 2081
-            },
-            {
-                "x": 1956,
-                "y": 2082
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "nama",
         "vertices": [
             {
@@ -3411,7 +2883,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "ii.",
+        "text": "ii",
         "vertices": [
             {
                 "x": 634,
@@ -3433,7 +2905,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "mur\"",
+        "text": "mur",
         "vertices": [
             {
                 "x": 734,
@@ -3516,28 +2988,6 @@
             {
                 "x": 1455,
                 "y": 2156
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "*",
-        "vertices": [
-            {
-                "x": 1168,
-                "y": 2144
-            },
-            {
-                "x": 1203,
-                "y": 2144
-            },
-            {
-                "x": 1203,
-                "y": 2191
-            },
-            {
-                "x": 1168,
-                "y": 2191
             }
         ]
     },
@@ -3631,28 +3081,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1956,
-                "y": 2230
-            },
-            {
-                "x": 1986,
-                "y": 2230
-            },
-            {
-                "x": 1986,
-                "y": 2254
-            },
-            {
-                "x": 1956,
-                "y": 2254
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "pekorjoon",
         "vertices": [
             {
@@ -3670,72 +3098,6 @@
             {
                 "x": 736,
                 "y": 2281
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "..",
-        "vertices": [
-            {
-                "x": 958,
-                "y": 2240
-            },
-            {
-                "x": 1035,
-                "y": 2241
-            },
-            {
-                "x": 1034,
-                "y": 2280
-            },
-            {
-                "x": 957,
-                "y": 2279
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1957,
-                "y": 2281
-            },
-            {
-                "x": 1986,
-                "y": 2281
-            },
-            {
-                "x": 1986,
-                "y": 2305
-            },
-            {
-                "x": 1957,
-                "y": 2305
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1957,
-                "y": 2331
-            },
-            {
-                "x": 1986,
-                "y": 2330
-            },
-            {
-                "x": 1986,
-                "y": 2352
-            },
-            {
-                "x": 1957,
-                "y": 2353
             }
         ]
     },
@@ -3785,51 +3147,7 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1958,
-                "y": 2382
-            },
-            {
-                "x": 1987,
-                "y": 2382
-            },
-            {
-                "x": 1987,
-                "y": 2406
-            },
-            {
-                "x": 1958,
-                "y": 2406
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1958,
-                "y": 2431
-            },
-            {
-                "x": 1988,
-                "y": 2430
-            },
-            {
-                "x": 1988,
-                "y": 2455
-            },
-            {
-                "x": 1958,
-                "y": 2456
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "wawwww.k'atat1:f",
+        "text": "wawwwwkatat1f",
         "vertices": [
             {
                 "x": 1043,
@@ -3873,28 +3191,6 @@
     },
     {
         "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1959,
-                "y": 2484
-            },
-            {
-                "x": 1988,
-                "y": 2484
-            },
-            {
-                "x": 1988,
-                "y": 2507
-            },
-            {
-                "x": 1959,
-                "y": 2507
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
         "text": "wwwwwww",
         "vertices": [
             {
@@ -3912,116 +3208,6 @@
             {
                 "x": 1765,
                 "y": 2535
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1960,
-                "y": 2533
-            },
-            {
-                "x": 1988,
-                "y": 2532
-            },
-            {
-                "x": 1989,
-                "y": 2556
-            },
-            {
-                "x": 1961,
-                "y": 2557
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1960,
-                "y": 2583
-            },
-            {
-                "x": 1989,
-                "y": 2582
-            },
-            {
-                "x": 1990,
-                "y": 2606
-            },
-            {
-                "x": 1961,
-                "y": 2607
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "******",
-        "vertices": [
-            {
-                "x": 741,
-                "y": 2607
-            },
-            {
-                "x": 810,
-                "y": 2608
-            },
-            {
-                "x": 810,
-                "y": 2618
-            },
-            {
-                "x": 741,
-                "y": 2617
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "..**",
-        "vertices": [
-            {
-                "x": 849,
-                "y": 2607
-            },
-            {
-                "x": 884,
-                "y": 2607
-            },
-            {
-                "x": 884,
-                "y": 2617
-            },
-            {
-                "x": 849,
-                "y": 2617
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": "2)",
-        "vertices": [
-            {
-                "x": 1961,
-                "y": 2634
-            },
-            {
-                "x": 1989,
-                "y": 2634
-            },
-            {
-                "x": 1989,
-                "y": 2658
-            },
-            {
-                "x": 1961,
-                "y": 2658
             }
         ]
     },
@@ -4087,28 +3273,6 @@
             },
             {
                 "x": 1475,
-                "y": 2732
-            }
-        ]
-    },
-    {
-        "normalizedVertices": [],
-        "text": ":",
-        "vertices": [
-            {
-                "x": 1624,
-                "y": 2699
-            },
-            {
-                "x": 1636,
-                "y": 2699
-            },
-            {
-                "x": 1636,
-                "y": 2732
-            },
-            {
-                "x": 1624,
                 "y": 2732
             }
         ]

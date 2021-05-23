@@ -18,7 +18,7 @@
 
   /* //* Declare variable resources */
   const IMG_DST = "OUT.png";
-  const IMG_SRC = "./resources/data/img/ajb_1_2_fotokopi_lurus.jpg";
+  const IMG_SRC = "./resources/data/img/ajb_1_1_fotokopi_lurus.jpg";
   const DICTIONARY_SRC = "./resources/data/bahasa_dictionary.txt";
   const RECOGNITION_DATA_TRAIN = [];
   const RECOGNITION_DATA_TRAIN_SRC = "./resources/data/ajb_prediction_train.csv";
@@ -46,7 +46,7 @@
 
   /* //* All algorithm steps declare here */
   const wordsDetection = await documentTextDetection(IMG_SRC);
-  const spellCheckedResult = await spellChecker(wordsDetection, fuzzyString, IMG_SRC.split("/")[4], "fotokopi", "1989");
-  const wordsRecognition = await documentTextRecognition(spellCheckedResult, RECOGNITION_DATA_TRAIN, RESERVED_WORDS, );
+  // const spellCheckedResult = await spellChecker(wordsDetection, fuzzyString, IMG_SRC.split("/")[4], "fotokopi", "1989");
+  // const wordsRecognition = await documentTextRecognition(spellCheckedResult, RECOGNITION_DATA_TRAIN, RESERVED_WORDS, );
   // await highlightText(IMG_SRC, IMG_DST, wordsDetection)
 })();

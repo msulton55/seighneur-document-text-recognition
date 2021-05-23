@@ -36,9 +36,9 @@ async function spellChecker(wordsDetection, fuzzyString, IMG_SRC, paperType, pat
 
 
 
-  /* Uncomment below to write output all wordBounds result from google text detection */
+  /* Uncomment below to write output all wordBounds result after symbol filtering  */
   fs.writeFile(
-    path.resolve(__dirname, '../out/spell-checking/result_text_detection.json'),
+    path.resolve(__dirname, '../out/spell-checking/result_symbol_filtering.json'),
     JSON.stringify(wordBounds),
     { flag: 'w' },
     err => {
@@ -51,8 +51,7 @@ async function spellChecker(wordsDetection, fuzzyString, IMG_SRC, paperType, pat
     wordsCombine += word.text + " "
   })
   wordsCombine = wordsCombine.trim()
-  console.log("############ FILENAME -> " + IMG_SRC + "#################\n")
-  console.log("### FULL TEXT (GOOGLE VISION TEXT DETECTION) ###\n")
+  console.log("### FULL TEXT (Symbol Filtering) ###\n")
   console.log(wordsCombine + "\n\n")
 
 
@@ -108,6 +107,14 @@ async function spellChecker(wordsDetection, fuzzyString, IMG_SRC, paperType, pat
     }
   )
 
+  wordsCombine = ""
+  wordBounds.forEach(word => {
+    wordsCombine += word.text + " "
+  })
+  wordsCombine = wordsCombine.trim()
+  console.log("### FULL TEXT (N-gram per character) ###\n")
+  console.log(wordsCombine + "\n\n")
+
 
 
   /* //* STEP 2 : n-gram per word from wordBounds */
@@ -159,6 +166,14 @@ async function spellChecker(wordsDetection, fuzzyString, IMG_SRC, paperType, pat
   fs.writeFile(path.resolve(__dirname, "../out/spell-checking/result_ngram_words.json"), JSON.stringify(wordBounds), { flag: "w" }, err => {
     if (err) return console.error(err);
   });
+
+  wordsCombine = ""
+  wordBounds.forEach(word => {
+    wordsCombine += word.text + " "
+  })
+  wordsCombine = wordsCombine.trim()
+  console.log("### FULL TEXT (N-gram per words) ###\n")
+  console.log(wordsCombine + "\n\n")
 
 
 
@@ -265,6 +280,14 @@ async function spellChecker(wordsDetection, fuzzyString, IMG_SRC, paperType, pat
   suggestionCorpus = [...suggestionCorpus, ...newSuggestionCorpus]
   suggestionCorpus.sort((a, b) => a.index > b.index ? 1 : -1)
 
+  wordsCombine = ""
+  suggestionCorpus.forEach(word => {
+    wordsCombine += word.text + " "
+  })
+  wordsCombine = wordsCombine.trim()
+  console.log("### FULL TEXT (Remove lists suggestion phase 1) ###\n")
+  console.log(wordsCombine + "\n\n")
+
 
 
   /* //* STEP 4 : Cleaning up word suggestion that unrelate based on patternVersion */
@@ -335,6 +358,14 @@ async function spellChecker(wordsDetection, fuzzyString, IMG_SRC, paperType, pat
   fs.writeFile(path.resolve(__dirname, "../out/spell-checking/result_final.json"), JSON.stringify(suggestionCorpus), { flag: "w" }, err => {
     if (err) return console.error(err);
   });
+
+  wordsCombine = ""
+  suggestionCorpus.forEach(word => {
+    wordsCombine += word.text + " "
+  })
+  wordsCombine = wordsCombine.trim()
+  console.log("### FULL TEXT (Remove lists suggestion based on pattern version phase 2) ###\n")
+  console.log(wordsCombine + "\n\n")
 
   
 

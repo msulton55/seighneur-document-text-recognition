@@ -1,3 +1,5 @@
+const fs = require("fs");
+const path = require("path");
 const vision = require('@google-cloud/vision');
 
 /**  
@@ -34,7 +36,7 @@ async function documentTextDetection(stringLocation) {
           word.symbols.forEach(symbol => {
 
             /* Remove these 7 symbols: hyphen (-), colon (:), slash (/), dot (.), single quote ('), double quote ("), round bracket (()) and comma (,) */
-            if (symbol.text.match(/^[.'"(),:/-]/gmi)) return
+            // if (symbol.text.match(/^[.'"(),:/-]/gmi)) return
             
             /* Convert all text to lowercase and remove whitespace */
             wordCombine += symbol.text.toLowerCase().trim() 
@@ -42,10 +44,10 @@ async function documentTextDetection(stringLocation) {
           })
 
           /* Regex test first iteration to cleaning the string or sentence */
-          if (wordRegex.test(wordCombine)) return
+          // if (wordRegex.test(wordCombine)) return
 
           /* Remove blank or number 2 from the sentence caused by regex.match() from previous */
-          if (wordCombine === "" || wordCombine === "2") return
+          // if (wordCombine === "" || wordCombine === "2") return
           
           wordsCombine += wordCombine + " "
 
@@ -53,17 +55,36 @@ async function documentTextDetection(stringLocation) {
         })
 
         /* Regex test second iteration for better cleaning string */
-        if (wordRegex.test(wordsCombine)) return
+        // if (wordRegex.test(wordsCombine)) return
 
         wordsCombine += "\n"
 
         /* Remove string inside array that only contains newline (\n) */
-        if (wordsCombine.includes('\n') && wordsCombine.split(' ').length === 1) return
+        // if (wordsCombine.includes('\n') && wordsCombine.split(' ').length === 1) return
 
         wordsPerParagraph.push(wordsCombine)
       })
     })
   })
+
+  let wordsCombine = ""
+  wordBounds.forEach(word => {
+    wordsCombine += word.text + " "
+  })
+  wordsCombine = wordsCombine.trim()
+  console.log("############ FILENAME -> " + stringLocation.split("/")[4] + "#################\n")
+  console.log("### FULL TEXT (GOOGLE VISION TEXT DETECTION) ###\n")
+  console.log(wordsCombine)
+
+  /* Uncomment below to write output all wordBounds result from google text detection */
+  // fs.writeFile(
+  //   path.resolve(__dirname, '../out/spell-checking/result_text_detection.json'),
+  //   JSON.stringify(wordBounds),
+  //   { flag: 'w' },
+  //   err => {
+  //     if (err) return console.error(err)
+  //   }
+  // )
 
   return { wordBounds: wordBounds, wordsPerParagraph: wordsPerParagraph } 
 
