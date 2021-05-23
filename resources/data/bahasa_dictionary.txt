@@ -9,6 +9,7 @@ agen rahasia
 agraria
 agustus
 ahli psikologi
+akan
 akhir
 akta
 aktor
@@ -30,13 +31,14 @@ atlet
 babakan
 badan
 bagaimana
-bagi
 bahwa
 bangunan
+banten
 bapak
 barat
 bartender
 batas
+batas batas
 batuceper
 bawah
 beli
@@ -45,11 +47,13 @@ berbatasan
 berdasarkan
 berikut
 berlaku
+bertempat
 bertindak
 berukuran
 berupa
 bidan
 bidang
+bin
 birokrat
 blogger
 blok
@@ -79,6 +83,7 @@ dan
 dari
 daripada
 datang
+delapan
 demi
 denah
 dengan
@@ -93,10 +98,12 @@ dihadapan
 dihadiri
 dikenal
 dilakukan
+dilampirkan
 dimaksudkan
 diperkenalkan
 diplomat
 direktur
+disebut
 disebutkan
 ditunjuk
 diuraikan
@@ -104,8 +111,10 @@ dokter
 dokter hewan
 dokter jiwa
 dosen
+dua
 dubber
 editor
+empat
 februari
 fotografer
 gaga
@@ -117,6 +126,7 @@ gembor
 gerendeng
 gondrong
 guide
+guna
 guru
 hadir
 hak
@@ -128,7 +138,9 @@ hak pakai
 hal
 harga
 hari
+hartono
 hindu
+ibrahim
 ibu
 ibu rumah tangga
 identifikasi
@@ -144,7 +156,9 @@ jalan
 januari
 jatake
 jatiuwung
+jawa
 jawa barat
+jaya
 jual
 jual beli
 juli
@@ -154,6 +168,7 @@ jurnalis
 juru foto
 juru masak
 juru mesin
+juta
 kabupaten
 kami
 kamis
@@ -184,6 +199,7 @@ kerja
 keroncong
 ketapang
 ketentuan
+keterangan
 kewarganegaraan
 kiai
 kiri
@@ -216,7 +232,9 @@ larangan selatan
 larangan utara
 lebar
 lebih
+lembar
 leter
+lima
 luas
 luas tanah
 lurah
@@ -244,6 +262,7 @@ milik
 minggu
 model
 montir
+muhammad
 musisi
 nakhoda
 nakoda
@@ -251,6 +270,7 @@ nama
 nambo jaya
 narablog
 nasional
+negara
 negeri
 neglasari
 nelayan
@@ -269,6 +289,7 @@ operator
 pabuaran
 pabuaran tumpeng
 pada
+pakai
 pakar runding
 pakojan
 paninggilan
@@ -277,6 +298,7 @@ panjang
 panunggangan
 panunggangan timur
 panunggangan utara
+para
 parung jaya
 parung serab
 pasal
@@ -286,6 +308,7 @@ pasir jaya
 pastor
 pedagang
 pedurenan
+pegawai
 pegawai negeri
 pejabat
 pekerja sosial
@@ -302,7 +325,6 @@ pembelian
 pembuat
 pemeran
 pemerintah
-pemrogram
 penari
 pendaftaran
 pendeta
@@ -328,6 +350,7 @@ peretas
 periuk
 periuk jaya
 perkasa
+persegi
 persil
 pertama
 pertanahan
@@ -355,11 +378,16 @@ provinsi
 psikiater
 psikolog
 pula
+puluh
 rabu
 raja
 ratu
+ratus
+raya
 redaktur
 resepsionis
+ribu
+rukun
 rukun tetangga
 rukun warga
 rumah
@@ -367,11 +395,15 @@ rumah susun
 rupiah
 sabtu
 saksi
+saksi saksi
 sangiang jaya
 satpam
+satu
 satuan
+saudara
 saya
 sebagai
+sebagaimana
 sebagian
 sebelah
 sebidang
@@ -382,12 +414,15 @@ selapajang jaya
 selasa
 selatan
 selebriti
+seluas
+sembilan
 seni pahat
 seniman
 senin
 sepenuhnya
 seperti
 september
+sepuluh
 sertifikat
 sesuai
 siswa
@@ -408,6 +443,7 @@ surat keterangan
 surat kuasa
 surat kuasa waris
 surat ukur
+swasta
 syarat
 tahun
 taikonot
@@ -427,19 +463,23 @@ tentang
 terjadi
 terletak
 tersebut
-timur
+tetangga
+tiga
 tinggal
 tingkat
 tni
 tuan
+tujuh
 tukang kayu
 tukang las
 tukang listrik
 tukang pos
 uang
+ukur
 ulama
 umur
 untuk
+usaha
 ustad
 utara
 warga

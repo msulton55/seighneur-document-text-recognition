@@ -1,12 +1,13 @@
 const vision = require('@google-cloud/vision');
 
 /**  
-  Function documentTextDetection() is the algorithm to detect all texts content from image.
-  It passes the textImage (image file) argument from main() function.
-  It does also remove any unnecessary symbols from target string / processed string.
-  It uses Google Cloud Vision API to detect all texts. 
+  Detect all texts content from image.
+  @param {String} stringLocation string location of image file
+  @return {Object} wordBounds containing string and corresponding coordinates
+  @return {String} wordBounds.text text content
+  @return {Array} wordBounds.vertices 4 coordinates location of the text
 */
-async function documentTextDetection(textImage) {
+async function documentTextDetection(stringLocation) {
 
   /* Creates a client and insert google vision service keyFilename */
   const client = new vision.ImageAnnotatorClient({
@@ -14,11 +15,11 @@ async function documentTextDetection(textImage) {
     keyFilename: "./seighneur-service-key-6ff1ec077ac2.json",
   })
   
-  const wordRegex = /^[.* ]{3,}$|^(\d){1,}[\x29]$|^[.:*\x2A\x2D\x2C]+$/gmi /* This regex is to clean unnecessary string detect from image */
+  const wordRegex = /^[.* ]{3,}$|^(\d){1,}[\x29]$|^[.:*\x2A\x2D\x2C]+$/gmi /* Primary word regex to clean up unnecessary symbol from detected text */
   const wordBounds = [] /* Results of word and bound detection will be saved here */
   const wordsPerParagraph = [] /* Results of all word per paragraph after detection will be saved here */
 
-  const result = await client.textDetection(textImage)
+  const result = await client.textDetection(stringLocation)
   const document = result[0].fullTextAnnotation
 
   document.pages.forEach(page => {
@@ -32,15 +33,15 @@ async function documentTextDetection(textImage) {
     
           word.symbols.forEach(symbol => {
 
-            /* Remove these 3 symbols: dot (.), single quote ('), round bracket (()) and comma (,) */
-            if (symbol.text.match(/^[.'(),]/gmi)) return
+            /* Remove these 7 symbols: hyphen (-), colon (:), slash (/), dot (.), single quote ('), double quote ("), round bracket (()) and comma (,) */
+            if (symbol.text.match(/^[.'"(),:/-]/gmi)) return
             
             /* Convert all text to lowercase and remove whitespace */
             wordCombine += symbol.text.toLowerCase().trim() 
             
           })
 
-          /* Regex test first iteration to cleaning the string / sentence */
+          /* Regex test first iteration to cleaning the string or sentence */
           if (wordRegex.test(wordCombine)) return
 
           /* Remove blank or number 2 from the sentence caused by regex.match() from previous */

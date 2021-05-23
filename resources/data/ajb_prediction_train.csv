@@ -1,0 +1,67 @@
+data,classification
+akta jual beli no 1313 2008,no_ajb
+akta jualbeli no1382JBAGR1988,no_ajb
+no1382jragr 18 88,no_ajb
+akta jual beli no 1382 JB AGR 1988,no_ajb
+akta jual beli no1382jragr 19 88,no_ajb
+manih binti oyong nama penjual,penjual.nama
+nama songgo bin bregud penjual,penjual.nama
+nama ny tina wati penjual," penjual.nama"
+tuan ibrohim b h sarim penjual,penjual.nama
+Umur 85 tahun penjual,penjual.umur
+48 tahun penjual,penjual.umur
+lahir tangerang 8 agustus 1963 penjual,penjual.umur
+pekerjaan petani penjual,penjual.pekerjaan
+ibu rumah tangga pekerjaan penjual,penjual.pekerjaan
+ibu rumah tangga penjual,penjual.pekerjaan
+pelajar penjual,penjual.pekerjaan
+warga negara indonesia penjual,penjual.warga_negara
+kewarganegaraan indonesia penjual,penjual.warga_negara
+indonesia penjual,penjual.warga_negara
+alamat kp kunciran rt 01 / rw 07 kelurahan kunciran kecamatan cipondoh kotif tangerang penjual,penjual.alamat
+bertempat tinggal rukun tetangga 02 rukun warga 03 kelurahan kunciran jaya kecamatan pinang kota tangerang provinsi banten penjual,penjual.alamat
+agama islam penjual,penjual.agama
+tuan wahyudin pembeli,pembeli.nama
+nama jaka perkasa pembeli,pembeli.nama
+muhammad burhan jayani nama pembeli,pembeli.nama
+Umur 19 tahun pembeli,pembeli.umur
+50 tahun pembeli,pembeli.umur
+lahir tangerang 20 mei 1975 pembeli,pembeli.umur
+pekerjaan pelajar pembeli,pembeli.pekerjaan
+ibu rumah tangga pembeli,pembeli.pekerjaan
+ibu rumah tangga pekerjaan pembeli,pembeli.pekerjaan
+pelajar pembeli,pembeli.pekerjaan
+warga negara indonesia pembeli,pembeli.warga_negara
+kewarganegaraan indonesia pembeli,pembeli.warga_negara
+indonesia pembeli,pembeli.warga_negara
+alamat jl mt haryono rt 002 / rw 009 kelurahan sukasari kecamatan tangerang kotatif tangerang pembeli,pembeli.alamat
+bertempat tinggal jalan mt haryono rukun tetangga 02 rukun warga 09 kelurahan sukasari kecamatan tangerang kota tangerang provinsi banten pembeli,pembeli.alamat
+agama islam pembeli,pembeli.agama
+provinsi banten,provinsi
+provinsi daerah tingkat I jawa barat,provinsi
+daerah tingkat I / wilayah jawa barat,provinsi
+Kabupaten / kota tangerang,Kabupaten / kota
+daerah tingkat ii / wilayah tangerang,kabupaten / kota
+Kabupaten / kotamadya daerah tingkat ii tangerang,Kabupaten / kota
+kecamatan pinang,kecamatan
+kecamatan cipondoh,kecamatan
+kecamatan / wilayah cipondoh,kecamatan
+desa kunciran,kelurahan
+desa / kelurahan kunciran,kelurahan
+jalan toharya rt 01 / 03,alamat
+luas tanah 1390,luas_tanah
+luas tanah 400 m,luas_tanah
+luas tanah 400 m2,luas_tanah
+seluas kurang lebih 180 m2,luas_tanah
+luas bidang tanah yang dimaksudkan dalam akta ini lebih kurang 500 m,luas_tanah
+luas bidang tanah yang dimaksudkan dalam akta ini lebih kurang 500 m2,luas_tanah
+persil no 3 s iv blok kohir no c 372,no_persil_girik_sppt
+persil nomor 46 d ii kohir nomor 246 blok,no_persil_girik_sppt
+persil nomor 63sii kohir nomor c 3603 blok,no_persil_girik_sppt
+persil nomor 63 s ii kohir nomor c3603 blok,no_persil_girik_sppt
+persil nomor 2 d ii blok 01 0721 kohir nomor c 489,no_persil_girik_sppt
+harga rp 1700000,harga_total_ajb
+harga rp 2780000,harga_total_ajb
+harga rp 28800000,harga_total_ajb
+harga rp 1 700 000,harga_total_ajb
+harga rp 28 800 000,harga_total_ajb

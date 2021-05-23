@@ -1,0 +1,173 @@
+[
+  {
+    "initialWord": "akta",
+    "wordsBuilt": 13,
+    "pagePosition": [1],
+    "excludeWords": 
+    [
+      "senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu", "januari", "februari", 
+      "maret", "april", "mei", "juni", "juli", "agustus", "september", "oktober", "november", 
+      "nopember", "desember", "tanah", "yang", "dimaksudkan", "dalam", "pasal", "peraturan", 
+      "pemerintah", "tentang", "pendaftaran", "ada", "pada", "hari", "ini", "tanggal", "mengenai",
+      "milik", "adat", "hak", "pada", "datang"
+    ]
+  },
+  {
+    "initialWord": "daerah",
+    "wordsBuilt": 8,
+    "pagePosition": [2, 3],
+    "excludeWords": 
+    [
+      "kabupaten", "kecamatan", "kelurahan", "di", "desa", "jalan", "alamat", "diuraikan", "dalam",
+      "surat", "ukur", "tgl", "no", "terletak"
+    ]
+  },
+  {
+    "initialWord": "provinsi",
+    "wordsBuilt": 6,
+    "pagePosition": [2, 3],
+    "excludeWords": 
+    [
+      "kabupaten", "kotamadia", "kecamatan", "kelurahan", "di", "desa", "jalan", "alamat", "diuraikan",
+      "dalam", "surat", "ukur", "tgl", "no", "terletak"
+    ]
+  },
+  {
+    "initialWord": "kabupaten",
+    "wordsBuilt": 8,
+    "pagePosition": [2, 3],
+    "excludeWords": 
+    [
+      "provinsi", "kecamatan", "kelurahan", "di", "desa", "jalan", "alamat", "diuraikan", "dalam",
+      "surat", "ukur", "tgl", "no", "terletak"
+    ]
+  },
+  {
+    "initialWord": "kecamatan",
+    "wordsBuilt": 5,
+    "pagePosition": [2, 3],
+    "excludeWords": 
+    [
+      "provinsi", "kabupaten", "kotamadia", "kelurahan", "di", "desa", "jalan", "alamat", "diuraikan",
+      "dalam", "surat", "ukur", "tgl", "no", "terletak", "berdasarkan", "ketentuan", "dalam", "pasal",
+      "peraturan", "menteri"
+    ]
+  },
+  {
+    "initialWord": "desa",
+    "wordsBuilt": 5,
+    "pagePosition": [2, 3],
+    "excludeWords": 
+    [
+      "provinsi", "kabupaten", "kotamadia", "di", "jalan", "alamat", "diuraikan", "dalam", "surat",
+      "ukur", "tgl", "no", "terletak", "berdasarkan", "ketentuan", "dalam", "pasal", "peraturan",
+      "menteri"
+    ]
+  },
+  {
+    "initialWord": "jalan",
+    "wordsBuilt": 10,
+    "pagePosition": [2, 3],
+    "excludeWords": 
+    [
+      "provinsi", "kabupaten", "kotamadia", "kelurahan", "di", "desa", "diuraikan", "dalam", "surat",
+      "ukur", "tgl", "no", "terletak", "berdasarkan", "ketentuan", "dalam", "pasal", "peraturan",
+      "menteri"
+    ]
+  },
+  {
+    "initialWord": "luas",
+    "wordsBuilt": 13,
+    "pagePosition": [2, 3]
+  },
+  {
+    "initialWord": "persil",
+    "wordsBuilt": 13,
+    "pagePosition": [2]
+  },
+  {
+    "initialWord": "harga",
+    "wordsBuilt": 6,
+    "pagePosition": [2, 3]
+  },
+  {
+    "endWord": ["penjual", "pembeli"],
+    "initialWord": ["tuan", "nama"],
+    "pagePosition": [1],
+    "wordsBuilt": 13,
+    "startIndex": 4,
+    "excludeWords": 
+    [
+      "alamat", "umur", "bertempat", "kewarganegaraan", "lahir", "pekerjaan", 
+      "tahun", "tanggal", "warga", "negara", "agama", "tgl", "di", "ibu", "rumah", "tangga", 
+      "januari", "februari", "maret", "april", "mei", "juni", "juli", "agustus", "september", 
+      "oktober", "november", "desember", "selanjutnya", "disebut", "dibagian", "akhir", "akta", 
+      "ini", "i"
+    ]
+  },
+  {
+    "endWord": ["penjual", "pembeli"],
+    "initialWord": ["lahir", "umur"],
+    "pagePosition": [1],
+    "wordsBuilt": 8,
+    "startIndex": 1,
+    "excludeWords": 
+    [
+      "tuan", "nama", "alamat", "bertempat", "kewarganegaraan", "pekerjaan", 
+      "tanggal", "warga", "negara", "agama", "tgl", "di", "ibu", "rumah", "tangga", 
+      "selanjutnya", "disebut", "dibagian", "akhir", "akta",  "ini", "i"
+    ]
+  },
+  {
+    "endWord": ["penjual", "pembeli"],
+    "initialWord": "pekerjaan",
+    "pagePosition": [1],
+    "wordsBuilt": 8,
+    "startIndex": 2,
+    "excludeWords": 
+    [
+      "tuan", "nama", "alamat", "umur", "bertempat", "kewarganegaraan", "lahir", 
+      "tahun", "tanggal", "warga", "negara", "agama", "tgl", "di", "ibu", "rumah", "tangga", 
+      "januari", "februari", "maret", "april", "mei", "juni", "juli", "agustus", "september", 
+      "oktober", "november", "desember", "selanjutnya", "disebut", "dibagian", "akhir", "akta", 
+      "ini", "i"
+    ]
+  },
+  {
+    "endWord": ["penjual", "pembeli"],
+    "initialWord": ["warga", "kewarganegaraan"],
+    "pagePosition": [1],
+    "wordsBuilt": 6,
+    "startIndex": 0,
+    "excludeWords": 
+    [
+      "tuan", "nama", "alamat", "umur", "bertempat", "lahir", "pekerjaan",  "tahun", "tanggal", 
+      "agama", "tgl", "di", "ibu", "rumah", "tangga", "januari", "februari", "maret", "april", "mei", "juni", "juli", "agustus", "september", "oktober", "november", "desember", "selanjutnya", 
+      "disebut", "dibagian", "akhir", "akta", "ini", "i"
+    ]
+  },
+  {
+    "endWord": ["penjual", "pembeli"],
+    "initialWord": ["alamat", "bertempat"],
+    "pagePosition": [1],
+    "wordsBuilt": 23,
+    "startIndex": 2,
+    "excludeWords": 
+    [
+      "tuan", "nama", "umur", "kewarganegaraan", "lahir", "pekerjaan", "tahun", "tanggal", "warga", "negara", "agama", "tgl", "di", "ibu", "rumah", "tangga", "januari", "februari", "maret", "april", "mei", "juni", "juli", "agustus", "september", "oktober", "november", "desember", "selanjutnya", "disebut", "dibagian", "akhir", "akta", "ini", "i"
+    ]
+  },
+  {
+    "endWord": ["penjual", "pembeli"],
+    "initialWord": "agama",
+    "pagePosition": [1],
+    "wordsBuilt": 8,
+    "startIndex": 2,
+    "excludeWords": 
+    [
+      "tuan", "alamat", "nama", "umur", "bertempat", "kewarganegaraan", "lahir", "pekerjaan", "tanggal",
+      "warga","negara", "tgl", "di", "ibu", "rumah", "tangga", "januari", "februari", "maret", "april","mei", "juni", "juli", "agustus", "september", "oktober", "november", "desember", "selanjutnya",
+      "disebut", "tahun"
+    ]
+  }
+]
