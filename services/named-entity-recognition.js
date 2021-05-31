@@ -1,5 +1,5 @@
 const natural = require('natural')
-const stemmerId = require('../node_modules/natural/lib/natural/stemmers/indonesian/stemmer_id')
+const stemmerId = require('natural/lib/natural/stemmers/indonesian/stemmer_id')
 
 async function documentTextRecognition(wordBounds = [], DATA_TRAIN = [], RESERVED_WORDS = []) {
 
