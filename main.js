@@ -62,6 +62,7 @@
   /* //* All algorithm steps declare here */
   const resultDetection = await textDetection(IMG_SRC);
   const resultFiltering = await textFiltering(resultDetection);
+  const resultSpellChecked = await spellChecker(resultFiltering);
   // const resultSpellChecked = await spellChecker(resultFiltering, fuzzyString, IMG_SRC.split("/")[4], "fotokopi", "1989");
   // const wordsRecognition = await documentTextRecognition(spellCheckedResult, RECOGNITION_DATA_TRAIN, RESERVED_WORDS, );
   // await highlightText(IMG_SRC, IMG_DST, resultDetection)
