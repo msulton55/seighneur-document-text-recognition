@@ -32,13 +32,13 @@ async function TextFiltering(wordBounds) {
 
 
 
-  // let wordsCombine = ""
-  // wordBounds.forEach(entity => {
-  //   wordsCombine += entity.text + " "
-  // })
-  // wordsCombine = wordsCombine.trim()
-  // console.log("### FULL TEXT (TEXT FILTERING) ###\n")
-  // console.log(wordsCombine + "\n\n")
+  let wordsCombine = ""
+  wordBounds.forEach(entity => {
+    wordsCombine += entity.text + " "
+  })
+  wordsCombine = wordsCombine.trim()
+  console.log("### FULL TEXT (TEXT FILTERING) ###\n")
+  console.log(wordsCombine + "\n\n")
 
 
 

@@ -48,14 +48,14 @@ async function TextDetection(IMG_SRC) {
 
 
 
-  // let wordsCombine = ""
-  // wordBounds.forEach(word => {
-  //   wordsCombine += word.text + " "
-  // })
-  // wordsCombine = wordsCombine.trim()
-  // console.log("############ FILENAME -> " + IMG_SRC.split("/")[4] + "#################\n")
-  // console.log("### FULL TEXT (GOOGLE VISION TEXT DETECTION) ###\n")
-  // console.log(wordsCombine + "\n\n")
+  let wordsCombine = ""
+  wordBounds.forEach(word => {
+    wordsCombine += word.text + " "
+  })
+  wordsCombine = wordsCombine.trim()
+  console.log("############ FILENAME -> " + IMG_SRC.split("/")[4] + "#################\n")
+  console.log("### FULL TEXT (GOOGLE VISION TEXT DETECTION) ###\n")
+  console.log(wordsCombine + "\n\n")
 
 
 

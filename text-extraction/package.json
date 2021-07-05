@@ -1,0 +1,15 @@
+{
+  "name": "seighneur-document-text-extraction",
+  "version": "2.0.0",
+  "description": "This feature to extract text from image resource using Google Cloud Vision OCR",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Muhammad Sulton Tauhid",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/vision": "^2.3.1"
+  }
+}

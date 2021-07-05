@@ -1,7 +1,8 @@
-node_modules
 .vscode
-resources/data/img
-resources/skripsi
-OUT.png
-seighneur-service-key-6ff1ec077ac2.json
-dss-plugin-nlp-preparation
+
+
+resources
+
+text-extraction/node_modules
+text-extraction/package-lock.json
+text-extraction/seighneur-service-key-6ff1ec077ac2.json
