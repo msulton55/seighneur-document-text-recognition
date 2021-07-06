@@ -1,7 +1,14 @@
 .vscode
 
+resources/
 
-resources
+model/bin
+model/etc/**
+model/include
+model/lib
+model/lib64
+model/share
+model/pyvenv.cfg
 
 text-extraction/node_modules
 text-extraction/package-lock.json
